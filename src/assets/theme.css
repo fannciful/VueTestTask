@@ -1,0 +1,41 @@
+/* src/assets/theme.css */
+
+:root {
+  --primary-color: #5a67d8;
+  --background-color: #f9fafb;
+  --text-color: #1a202c;
+  --card-bg: #ffffff;
+  --border-radius: 8px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.p-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.p-panel {
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+
+.p-button {
+  border-radius: var(--border-radius);
+}
+
+.p-scrollpanel {
+  border: 1px solid #e5e7eb;
+  border-radius: var(--border-radius);
+}
+
+.p-divider {
+  margin: 2rem 0;
+}
